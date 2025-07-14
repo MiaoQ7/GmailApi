@@ -43,13 +43,13 @@
 	"message": "success",
 	"data": [
 		{
-			"_id": "68746b5c2c78de2b6a9c99b2",
-			"name": "apple",
-			"canUseAccountNumber": 124,
-			"sortNo": 999,
-			"icon": "platform/apple-1752460074029.png",
-			"price": 1,
-			"displayStatus": true
+			"_id": "68746b5c2c78de2b6a9c99b2", // ID
+			"name": "apple", // 平台名称
+			"canUseAccountNumber": 124, // 可用库存
+			"sortNo": 999, // 排序号
+			"icon": "platform/apple-1752460074029.png", // 图标
+			"price": 1, // 单价
+			"displayStatus": true // 显示
 		},
 		{
 			"_id": "68747f19fbdb497d77a6e65f",
@@ -107,7 +107,7 @@
 {
 	"code": 1,
 	"message": "success",
-	"data": "E07141416547128"
+	"data": "E07141416547128" // 订单号
 }
 ```
 
@@ -153,17 +153,17 @@
 	"message": "success",
 	"data": [
 		{
-			"_id": "6874a0d86019e853e292611e",
-			"orderDetailNo": "E07141416547128000000",
-			"email": "khfll7e8c@gmail.com",
-			"platformName": "apple",
-			"price": 1,
-			"expireTime": "2025-07-14T06:36:56.037Z",
-			"status": "Waiting",
-			"createTime": "2025-07-14T06:16:56.037Z",
-			"text": "",
-			"updateTime": "2025-07-14T06:16:56.037Z",
-			"orderId": "6874a0d66019e853e292611a"
+			"_id": "6874a0d86019e853e292611e", // ID
+			"orderDetailNo": "E07141416547128000000", // 订单号
+			"email": "khfll7e8c@gmail.com", // 邮箱
+			"platformName": "apple", // 平台名称
+			"price": 1, // 价格
+			"expireTime": "2025-07-14T06:36:56.037Z", // 过期时间
+			"status": "Waiting", // 状态  CodeReceived 已接码 Released 已释放  Expired 已过期  Waiting 待接码
+			"createTime": "2025-07-14T06:16:56.037Z", // 创建时间
+			"text": "", // 验证码
+			"updateTime": "2025-07-14T06:16:56.037Z", // 更新时间
+			"orderId": "6874a0d66019e853e292611a" // 订单号
 		}
 	]
 }
