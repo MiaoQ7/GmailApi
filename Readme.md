@@ -1,52 +1,6 @@
+# TNT 邮件API文档
 
-# 下单
-
-> 创建人: zzzzzga
-
-```text
-下单购买邮箱
-```
-
-**接口URL**
-
-> /api/buyEmailOrder/open/buy
-
-**请求方式**
-
-> POST
-
-**Content-Type**
-
-> json
-
-**请求Header参数**
-
-| 参数名 | 示例值 | 参数类型 | 是否必填 | 参数描述 |
-| --- | --- | ---- | ---- | ---- |
-| Authorization | bd4d7f193ebc4ffc8558ebf18dbc2b84 | string | 是 | API密钥 |
-
-**请求Body参数**
-
-```javascript
-{
-    "platformId":"68708da21ef8267d7f1114fb",
-    "buyNum": 1
-}
-```
-
-**响应示例**
-
-* 成功(200)
-
-```javascript
-{
-	"code": 1,
-	"message": "success",
-	"data": "E07141416547128"
-}
-```
-
-# 查询平台
+## 查询平台
 
 > 创建人: zzzzzga
 
@@ -110,7 +64,54 @@
 }
 ```
 
-# 查询结果
+## 下单
+
+> 创建人: zzzzzga
+
+```text
+下单购买邮箱
+```
+
+**接口URL**
+
+> /api/buyEmailOrder/open/buy
+
+**请求方式**
+
+> POST
+
+**Content-Type**
+
+> json
+
+**请求Header参数**
+
+| 参数名 | 示例值 | 参数类型 | 是否必填 | 参数描述 |
+| --- | --- | ---- | ---- | ---- |
+| Authorization | bd4d7f193ebc4ffc8558ebf18dbc2b84 | string | 是 | API密钥 |
+
+**请求Body参数**
+
+```javascript
+{
+    "platformId":"68708da21ef8267d7f1114fb",
+    "buyNum": 1
+}
+```
+
+**响应示例**
+
+* 成功(200)
+
+```javascript
+{
+	"code": 1,
+	"message": "success",
+	"data": "E07141416547128"
+}
+```
+
+# 查询验证码结果
 
 > 创建人: zzzzzga
 
