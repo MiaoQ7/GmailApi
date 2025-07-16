@@ -169,3 +169,47 @@
 }
 ```
 
+## 释放邮箱
+
+> 创建人: zzzzzga
+
+```text
+释放邮箱，每小时限制最多60个
+```
+
+**接口URL**
+
+> /api/buyEmailOrder/open/release
+
+**请求方式**
+
+> POST
+
+**Content-Type**
+
+> json
+
+**请求Header参数**
+
+| 参数名 | 示例值 | 参数类型 | 是否必填 | 参数描述 |
+| --- | --- | ---- | ---- | ---- |
+| Authorization | bd4d7f193ebc4ffc8558ebf18dbc2b84 | string | 是 | API秘钥 |
+
+**请求Body参数**
+
+```javascript
+{
+    "id":"6874a0d86019e853e292611e" // 查询验证码结果中的 _id
+}
+```
+
+**响应示例**
+
+* 成功(200)
+
+```javascript
+{
+	"code": 1,
+	"message": "success"
+}
+```
